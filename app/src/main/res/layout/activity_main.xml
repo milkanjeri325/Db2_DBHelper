@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="22dp"
+        android:hint="Input name">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="22dp"
+        android:hint="Input name">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_Addname"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_200"
+        android:text="Add name"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_Printname"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_200"
+        android:text="Printname"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp">
+
+    </Button>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Name"
+        android:textColor="@color/purple_700"
+        android:textSize="22dp">
+
+    </TextView>
+
+    <TextView
+    android:id="@+id/txt_age2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_weight="1"
+    android:padding="10dp"
+    android:text="Name"
+    android:textColor="@color/purple_700"
+    android:textSize="22dp">
+
+    </TextView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
